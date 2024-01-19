@@ -193,7 +193,7 @@ body {
     margin: none;
 }
 
-@media screen and (min-width: 641px) and (max-width: 1023) {
+@media screen and (max-width: 641px){
     .conteudo {
         display: block;
     }
@@ -251,4 +251,11 @@ body {
         column-gap: 1%;
         row-gap: 5%;
     }
+
+    @media screen and (min-width: 641px;) and (max-width: 1024) {
+        .noticias {
+            grid-template-columns: repeat(2, 48%);
+        }
+    }
+        
 }
